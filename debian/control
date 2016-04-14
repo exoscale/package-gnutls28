@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9), nettle-dev (>= 3.1), zlib1g-dev,
  libtasn1-6-dev (>= 4.3),
  datefudge,
  pkg-config, chrpath,
- autogen (>= 1:5.16-0), bison, libgmp-dev (>= 2:6),
+ autogen, bison, libgmp-dev (>= 2:6),
  libopts25-dev
 # The b-d on libgmp-dev is not technically necessary, since nettle brings
 # it along. However we want to enforce that gnutls is only built if the
