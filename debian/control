@@ -11,12 +11,8 @@ Build-Depends: debhelper (>= 9), nettle-dev (>= 3.1), zlib1g-dev,
  libtasn1-6-dev (>= 4.3),
  datefudge,
  pkg-config, chrpath,
- autogen, bison, libgmp-dev (>= 2:6),
+ autogen, bison, libgmp-dev,
  libopts25-dev
-# The b-d on libgmp-dev is not technically necessary, since nettle brings
-# it along. However we want to enforce that gnutls is only built if the
-# dual-licensed GMP is available, otherwise the resulting binary
-# cannot be installed.
 Build-Depends-Indep: gtk-doc-tools, texinfo (>= 4.8)
 Build-Conflicts: libgnutls-dev
 Standards-Version: 3.9.7
@@ -73,9 +69,7 @@ Description: dummy transitional package for GNU TLS library - development files
 Package: libgnutls30
 Priority: standard
 Architecture: any
-# GMP >= 6 is dual-licensed GPLv2+/LGPLv2.1+. Be nice to rdeps and
-# enforce usage of this version. - Remove on gmp soname bump!
-Depends: ${shlibs:Depends}, ${misc:Depends}, libgmp10 (>= 2:6)
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgmp10
 Conflicts: libnettle4, libhogweed2
 Pre-Depends: ${misc:Pre-Depends}
 Suggests: gnutls-bin
