@@ -26,6 +26,7 @@ override_dh_auto_configure:
 	--enable-ld-version-script --enable-cxx \
 	--enable-static \
 	--without-lzo \
+	--without-idn \
 	--disable-libdane --without-tpm \
 	--disable-heartbeat-support \
 	--enable-openssl-compatibility \
