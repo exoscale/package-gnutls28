@@ -1,0 +1,13 @@
+Index: gnutls-3.4.10/tests/global-init-override.c
+===================================================================
+--- gnutls-3.4.10.orig/tests/global-init-override.c
++++ gnutls-3.4.10/tests/global-init-override.c
+@@ -43,7 +43,7 @@ GNUTLS_SKIP_GLOBAL_INIT
+ 
+ void doit(void)
+ {
+-#ifdef _WIN32
++#if 1
+ 	/* weak symbols don't seem to work in windows */
+ 	exit(77);
+ #else

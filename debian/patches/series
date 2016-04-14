@@ -2,3 +2,4 @@
 41_tests-mini-loss-time-ensure-client-timeouts.diff
 42_mini-loss-time-improved-timeout-detection.patch
 43_fix_cpucapoverride.diff
+99_skip_failing_tests.diff

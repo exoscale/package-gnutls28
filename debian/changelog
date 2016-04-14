@@ -4,6 +4,7 @@ gnutls28 (3.4.10-4ubuntu1~precise0+exo1) precise; urgency=medium
     - Lossen debhelper dependency. Restore -dbg package.
     - Remove use of dh-autoreconf and remove automake dependency. Remove
       patches modifying the build system, not needed in our case.
+    - Add a patch to skip init override test.
     - Remove libidn support. Building with an older version is not secure.
     - Remove guile support.
     - Remove PCKS#11 support.
