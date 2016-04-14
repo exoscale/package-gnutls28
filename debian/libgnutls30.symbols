@@ -371,58 +371,8 @@ libgnutls.so.30 libgnutls30 #MINVER#
  gnutls_pk_get_oid@GNUTLS_3_4 3.4.3
  gnutls_pk_list@GNUTLS_3_4 3.4.0
  gnutls_pk_to_sign@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_add_provider@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_copy_attached_extension@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_copy_pubkey@GNUTLS_3_4 3.4.6
- gnutls_pkcs11_copy_secret_key@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_copy_x509_crt2@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_copy_x509_privkey2@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_crt_is_known@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_deinit@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_delete_url@GNUTLS_3_4 3.4.0
  gnutls_pkcs11_get_pin_function@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_get_raw_issuer@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_get_raw_issuer_by_dn@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_get_raw_issuer_by_subject_key_id@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_init@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_deinit@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_export2@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_export3@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_export@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_export_url@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_flags_get_str@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_obj_get_exts@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_get_flags@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_obj_get_info@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_get_type@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_import_url@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_init@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_list_import_url3@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_obj_list_import_url4@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_obj_set_info@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_obj_set_pin_function@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_cpy@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_deinit@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_export_pubkey@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_export_url@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_generate3@GNUTLS_3_4 3.4.4
- gnutls_pkcs11_privkey_get_info@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_get_pk_algorithm@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_import_url@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_init@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_set_pin_function@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_privkey_status@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_reinit@GNUTLS_3_4 3.4.0
  gnutls_pkcs11_set_pin_function@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_set_token_function@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_token_get_flags@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_token_get_info@GNUTLS_3_4 3.4.3
- gnutls_pkcs11_token_get_mechanism@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_token_get_random@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_token_get_url@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_token_init@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_token_set_pin@GNUTLS_3_4 3.4.0
- gnutls_pkcs11_type_get_name@GNUTLS_3_4 3.4.0
  gnutls_pkcs12_bag_decrypt@GNUTLS_3_4 3.4.0
  gnutls_pkcs12_bag_deinit@GNUTLS_3_4 3.4.0
  gnutls_pkcs12_bag_enc_info@GNUTLS_3_4 3.4.0
@@ -504,7 +454,6 @@ libgnutls.so.30 libgnutls30 #MINVER#
  gnutls_privkey_export_dsa_raw@GNUTLS_3_4 3.4.0
  gnutls_privkey_export_ecc_raw@GNUTLS_3_4 3.4.0
  gnutls_privkey_export_openpgp@GNUTLS_3_4 3.4.0
- gnutls_privkey_export_pkcs11@GNUTLS_3_4 3.4.0
  gnutls_privkey_export_rsa_raw@GNUTLS_3_4 3.4.0
  gnutls_privkey_export_x509@GNUTLS_3_4 3.4.0
  gnutls_privkey_generate@GNUTLS_3_4 3.4.0
@@ -517,7 +466,6 @@ libgnutls.so.30 libgnutls30 #MINVER#
  gnutls_privkey_import_ext@GNUTLS_3_4 3.4.0
  gnutls_privkey_import_openpgp@GNUTLS_3_4 3.4.0
  gnutls_privkey_import_openpgp_raw@GNUTLS_3_4 3.4.0
- gnutls_privkey_import_pkcs11@GNUTLS_3_4 3.4.0
  gnutls_privkey_import_rsa_raw@GNUTLS_3_4 3.4.0
  gnutls_privkey_import_tpm_raw@GNUTLS_3_4 3.4.0
  gnutls_privkey_import_tpm_url@GNUTLS_3_4 3.4.0
@@ -567,7 +515,6 @@ libgnutls.so.30 libgnutls30 #MINVER#
  gnutls_pubkey_import_ecc_x962@GNUTLS_3_4 3.4.0
  gnutls_pubkey_import_openpgp@GNUTLS_3_4 3.4.0
  gnutls_pubkey_import_openpgp_raw@GNUTLS_3_4 3.4.0
- gnutls_pubkey_import_pkcs11@GNUTLS_3_4 3.4.0
  gnutls_pubkey_import_privkey@GNUTLS_3_4 3.4.0
  gnutls_pubkey_import_rsa_raw@GNUTLS_3_4 3.4.0
  gnutls_pubkey_import_tpm_raw@GNUTLS_3_4 3.4.0
@@ -894,12 +841,10 @@ libgnutls.so.30 libgnutls30 #MINVER#
  gnutls_x509_crt_get_subject_unique_id@GNUTLS_3_4 3.4.0
  gnutls_x509_crt_get_version@GNUTLS_3_4 3.4.0
  gnutls_x509_crt_import@GNUTLS_3_4 3.4.0
- gnutls_x509_crt_import_pkcs11@GNUTLS_3_4 3.4.0
  gnutls_x509_crt_import_url@GNUTLS_3_4 3.4.0
  gnutls_x509_crt_init@GNUTLS_3_4 3.4.0
  gnutls_x509_crt_list_import2@GNUTLS_3_4 3.4.0
  gnutls_x509_crt_list_import@GNUTLS_3_4 3.4.0
- gnutls_x509_crt_list_import_pkcs11@GNUTLS_3_4 3.4.0
  gnutls_x509_crt_list_verify@GNUTLS_3_4 3.4.0
  gnutls_x509_crt_print@GNUTLS_3_4 3.4.0
  gnutls_x509_crt_privkey_sign@GNUTLS_3_4 3.4.0
