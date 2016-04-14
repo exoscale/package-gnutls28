@@ -27,6 +27,7 @@ override_dh_auto_configure:
 	--enable-static \
 	--without-lzo \
 	--without-idn \
+	--without-p11-kit \
 	--disable-libdane --without-tpm \
 	--disable-heartbeat-support \
 	--enable-openssl-compatibility \
