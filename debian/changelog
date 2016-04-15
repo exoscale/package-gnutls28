@@ -1,3 +1,10 @@
+gnutls28 (3.4.10-4ubuntu1~precise0+exo2) precise; urgency=medium
+
+  * Ensure coinstallability with libgnutls28 by removing unneeded conflict
+    on older versions of nettle/hogweed.
+
+ -- Vincent Bernat <bernat@debian.org>  Fri, 15 Apr 2016 11:21:20 +0200
+
 gnutls28 (3.4.10-4ubuntu1~precise0+exo1) precise; urgency=medium
 
   * Backport to Precise.
