@@ -96,7 +96,7 @@ Package: libgnutls28-dbg
 Priority: extra
 Architecture: any
 Section: debug
-Depends: libgnutls-deb0-28 (= ${binary:Version}), ${misc:Depends}
+Depends: ${misc:Depends}
 Multi-Arch: same
 Description: GNU TLS library - debugger symbols
  GnuTLS is a portable library which implements the Transport Layer
